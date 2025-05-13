@@ -1,18 +1,24 @@
 {
-  "name": "json-server",
+  "name": "jss",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "devDependencies": {
-    "json-server": "^0.17.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrePu/json-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UrePu/json-server/issues"
+  },
+  "homepage": "https://github.com/UrePu/json-server#readme",
   "description": "",
   "dependencies": {
-    "json-server": "link:json-server"
+    "json-server": "^1.0.0-beta.3"
   }
 }
